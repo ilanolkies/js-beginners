@@ -1,3 +1,3 @@
 # js-beginners
 
-Ejercicios para beginners de JS.
+JS Beginners excercises.
