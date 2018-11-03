@@ -1,81 +1,81 @@
-// Matematica
+// Math
 
-function funcion1(x) {
-    return "Implementar!";
+function lineal (x) {
+    return "Implement!";
 }
 
-function funcion2(x) {
-    return "Implementar!";
+function sqrt (x) {
+    return "Implement!";
 }
 
-function funcion3(x, y) {
-    return "Implementar!";
+function avarage (x, y) {
+    return "Implement!";
 }
 
-function funcion4(x) {
-    return "Implementar!";
+function cuadratic (x) {
+    return "Implement!";
 }
 
 // Text
 
-function funcion5(x) {
-    return "Implementar!";
+function exclam (x) {
+    return "Implement!";
 }
 
-function funcion6(x) {
-    return "Implementar!";
+function upperCase (x) {
+    return "Implement!";
 }
 
-function funcion7(x, y) {
-    return "Implementar!";
+function concat (x, y) {
+    return "Implement!";
 }
 
-function funcion8(x, y, z) {
-    return "Implementar!";
+function concatWithSpace (x, y, z) {
+    return "Implement!";
 }
 
-
+// Button an input binding
 $('#btn-1').click(() =>{
     var x = $('#in-1').val()
-    var result = funcion1(x)
+    var result = lineal(x)
     $('#out-1').html(result)
 })
 
 $('#btn-2').click(() =>{
     var x = $('#in-2').val()
-    var result = funcion2(x)
+    var result = sqrt(x)
     $('#out-2').html(result)
 })
 
 $('#btn-3').click(() =>{
     var x = $('#in-3-x').val()
     var y = $('#in-3-y').val()
-    var result = funcion3(x, y)
+    var result = avarage(x, y)
     $('#out-3').html(result)
 })
 
 $('#btn-4').click(() =>{
     var x = $('#in-4').val()
-    var result = funcion4(x)
+    var result = cuadratic(x)
     $('#out-4').html(result)
 })
 
 $('#btn-5').click(() =>{
     var x = $('#in-5').val()
-    var result = funcion5(x)
+    var result = exclam(x)
     $('#out-5').html(result)
 })
 
 $('#btn-6').click(() =>{
     var x = $('#in-6').val()
-    var result = funcion6(x)
+    var result = upperCase(x)
     $('#out-6').html(result)
 })
 
 $('#btn-7').click(() =>{
     var x = $('#in-7-x').val()
     var y = $('#in-7-y').val()
-    var result = funcion7(x, y)
+    var result = concat(x, y)
     $('#out-7').html(result)
 })
 
@@ -83,6 +83,6 @@ $('#btn-8').click(() =>{
     var x = $('#in-8-x').val()
     var y = $('#in-8-y').val()
     var z = $('#in-8-z').val()
-    var result = funcion7(x, y, z)
+    var result = concatWithSpace(x, y, z)
     $('#out-8').html(result)
 })
